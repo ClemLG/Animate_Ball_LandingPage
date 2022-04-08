@@ -1,0 +1,27 @@
+/* S3 */
+
+h1 {
+    font-family: 'Montserrat SemiBold', Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    line-height: 50pt;
+}
+
+p {
+    font-family: 'Montserrat Regular', Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    line-height: 30pt;
+}
+
+#section-3 > .row > [class*="col"]:last-child{
+    margin-top: 50px;
+    
+}
+
+#ball{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    width: 80%;
+    transform: rotate(-30deg);
+    transition: transform 1s ease, top 1s ease;
+}
